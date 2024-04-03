@@ -1,0 +1,56 @@
+﻿/* Стилі для фонового зображення сторінки */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+/* Червоний рядок на початку абзаців */
+p {
+    text-indent: 1em;
+}
+
+/* Вирівнювання тексту абзаців по ширині */
+p {
+    text-align: justify;
+}
+
+/* Відстані ліворуч та праворуч від тексту до границь вікна */
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Стиль тексту – курсив */
+p {
+    font-style: italic;
+}
+
+/* Заголовок 1-го рівня */
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #FF0000; /* червоний колір */
+    font-style: normal;
+}
+
+/* Різне оформлення посилань */
+a:link {
+    color: blue; /* колір посилань для не відвіданих сторінок */
+}
+
+a:visited {
+    color: purple; /* колір посилань для відвіданих сторінок */
+}
+
+a:hover {
+    color: red; /* колір посилань при наведенні курсора */
+}
+
+/* Розташування рисунків */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: 10%; /* Початковий розмір зображення */
+}
